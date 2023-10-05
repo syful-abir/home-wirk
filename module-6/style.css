@@ -1,0 +1,212 @@
+body {
+    overflow-x: hidden;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.font-size {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.size {
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.gap-50 {
+    gap: 50px;
+}
+
+.color-gray {
+    color: #777;
+}
+
+.mt-50 {
+    margin-top: 10%;
+}
+
+.my-30 {
+    margin: 30px 30px;
+}
+
+.navbar-top {
+    background-image: url('https://images.pexels.com/photos/1384901/pexels-photo-1384901.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*About Section*/
+.about {
+
+    padding-left: 300px !important;
+    margin-top: 30px;
+}
+
+.about-content {
+    width: 300px;
+}
+
+.description {
+    font-size: 14px;
+    color: #777;
+}
+
+span {
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    color: red;
+    font-weight: bold;
+}
+
+/*card*/
+.services {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card img {
+    width: 80px;
+    margin: 10px auto;
+
+}
+
+/** Banner Shape **/
+.width-300 {
+    width: 300px;
+}
+
+.height-300 {
+    height: auto;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.form-div {
+    display: flex;
+    padding: 10px 120px;
+}
+
+.sm-device {
+    display: flex;
+}
+
+.social-icon {
+    font-size: 25px;
+    padding: 6px 0;
+}
+
+/*--------footer start ---------*/
+.footer {
+    background-color: #191919;
+}
+
+.footer-text {
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    padding-top: 30px;
+}
+
+.footer-text h1 {
+    font-size: 39px;
+    padding-bottom: 40px;
+}
+
+#text {
+    font-size: 19px;
+    display: inline;
+
+}
+
+.footer-icon {
+    padding: 25px 0px;
+}
+
+.fa-facebook-f {
+    background-color: #f44;
+    padding: 8px 13px;
+    font-size: 30px;
+    color: #fff;
+    margin: 0px 20px;
+    border-radius: 5px;
+}
+
+.fa-twitter {
+    background-color: #f44;
+    padding: 10px;
+    font-size: 30px;
+    color: #fff;
+    margin: 0px 20px;
+    border-radius: 5px;
+}
+
+.fa-instagram {
+    background-color: #f44;
+    padding: 10px;
+    font-size: 30px;
+    color: #fff;
+    margin: 0px 20px;
+    border-radius: 5px;
+}
+
+.copy-right {
+    background-color: red;
+    font-weight: 500;
+}
+
+/*--------footer end ---------*/
+
+@media (max-width: 575px) {
+    .services {
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
+
+@media (max-width: 575px) {
+    .about {
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
+
+@media (max-width: 575px) {
+    .sm-device {
+        flex-direction: column;
+        /* padding: 13%; */
+    }
+
+    .form-div {
+        flex-direction: column;
+        padding: 2px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .heading {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .heading {
+        font-size: 30px;
+    }
+
+    .about {
+
+        padding-left: 10px !important;
+        margin-top: 30px;
+        flex-direction: column;
+    }
+}
