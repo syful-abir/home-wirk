@@ -142,22 +142,24 @@
                 </div>
             </div>
             <div class="col">
-                <h1 class="fs-4 mb-4">Write me your project</h1>
-                <div class="mb-4 rounded">
-                    <label for="exampleFormControlInput1" class="form-label">Name</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1"
-                        placeholder="Enter Your Name">
-                </div>
-                <div class="mb-4 rounded">
-                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1"
-                        placeholder="Enter Your Password">
-                </div>
-                <div class="mb-4 rounded">
-                    <label for="exampleFormControlTextarea1" class="form-label">Project Details</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
-                </div>
-                <button class="btn btn-danger">SEND<i class="fa-solid fa-paper-plane"></i></button>
+                <form action="https://formspree.io/f/xbjezgrb" method="POST">
+                    <h1 class="fs-4 mb-4">Write me your project</h1>
+                    <div class="mb-4 rounded">
+                        <label for="exampleFormControlInput1" class="form-label">Name</label>
+                        <input type="name" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Enter Your Name">
+                    </div>
+                    <div class="mb-4 rounded">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Enter Your Password">
+                    </div>
+                    <div class="mb-4 rounded">
+                        <label for="exampleFormControlTextarea1" class="form-label">Project Details</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
+                    </div>
+                    <button class="btn btn-danger">SEND<i class="fa-solid fa-paper-plane"></i></button>
+                </form>
             </div>
         </div>
     </section>
